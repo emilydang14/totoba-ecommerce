@@ -1,0 +1,13 @@
+.Logo {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Logo img {
+  height: 50px;
+  transition: ease-in-out 300ms;
+}
+
+.Logo img:hover {
+  height: 60px;
+}

@@ -1,0 +1,50 @@
+.Button {
+  padding: 10px 8px;
+  width: 150px;
+  border-style: solid;
+  border-width: 3px 8px 3px 8px;
+  border-radius: 35px;
+  box-sizing: border-box;
+  background-color: #f8f7f4;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: #6c6859;
+  font-size: medium;
+  transition: ease-in-out 500ms;
+  outline: none;
+  margin-top: 5px;
+}
+
+.Button:hover {
+  color: #f8f7f4;
+  border-width: 2px 4px 2px 4px;
+  border-color: #f8f7f4;
+  background-color: #6c6859;
+}
+.Button:disabled {
+  cursor: not-allowed;
+  border: none;
+  background-color: none;
+}
+
+@media (max-width: 1150px) {
+  .Button {
+    font-size: small;
+  }
+}
+@media (max-width: 600px) {
+  .Button {
+    font-size: small;
+    width: fit-content;
+    padding: 10px 8px;
+    border-width: 1px 4px 1px 4px;
+  }
+  .Button:disabled {
+    padding: 18px 18px;
+  }
+}
+@media (max-width: 450px) {
+  .Button {
+    font-size: x-small;
+  }
+}

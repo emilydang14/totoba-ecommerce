@@ -1,0 +1,36 @@
+.GeneralLinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1;
+}
+.generalLinkGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 10%;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: large;
+}
+
+.link {
+  color: #f8f7f4;
+  text-decoration: none;
+  margin: 10px 0;
+  transition: ease-in-out 200ms;
+}
+.link:hover {
+  color: #ff5f00;
+}
+
+@media (max-width: 650px) {
+  .GeneralLinks {
+    justify-content: center;
+    align-items: center;
+  }
+  .generalLinkGroup {
+    align-items: center;
+  }
+}

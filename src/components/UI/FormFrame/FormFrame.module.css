@@ -1,0 +1,44 @@
+.formFrame {
+  display: block;
+  text-align: center;
+  border: 2px solid #6c6859;
+  border-radius: 21px;
+  padding: 40px;
+  width: 600px;
+  margin: 180px auto auto auto;
+}
+
+.formFrame p {
+  margin: 20px 0 5px 0;
+}
+
+.formFrame a {
+  text-decoration: underline;
+  color: inherit;
+}
+.formFrame a:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .formFrame {
+    width: 500px;
+  }
+}
+@media (max-width: 800px) {
+  .formFrame {
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .formFrame {
+    width: 70%;
+    padding: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .formFrame {
+    padding: 20px;
+  }
+}

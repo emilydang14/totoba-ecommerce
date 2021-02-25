@@ -1,0 +1,40 @@
+.GeneralInfos {
+  align-self: flex-start;
+  margin-top: 15px;
+  flex: 1 1;
+}
+.generalInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: large;
+}
+
+.infoContents {
+  display: flex;
+  width: 50%;
+  height: 70px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 650px) {
+  .GeneralInfos {
+    align-self: center;
+  }
+  .generalInfo {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .infoContents {
+    display: flex;
+    width: 95%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,28 @@
+.PromotionBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f7f4;
+  padding: 15px 0;
+  border-radius: 0 0 12px 12px;
+}
+.PromotionBar p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .PromotionBar {
+    font-size: small;
+  }
+}
+@media (max-width: 450px) {
+  .PromotionBar {
+    font-size: x-small;
+  }
+}
+@media (max-width: 350px) {
+  .PromotionBar {
+    font-size: xx-small;
+  }
+}

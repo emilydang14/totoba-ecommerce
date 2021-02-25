@@ -1,0 +1,79 @@
+.NavBarButtonContainer {
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.NavBarButtonContainer p {
+  margin: 0;
+  text-align: center;
+  font-size: small;
+}
+.buttonName {
+  margin: 0;
+  text-align: center;
+  font-size: small;
+  transition: ease-in-out 300ms;
+}
+
+.navBarButton {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  transition: ease-in-out 300ms;
+  font-weight: 800;
+}
+
+.navBarButton:hover {
+  cursor: pointer;
+  font-size: medium;
+}
+.cartQty {
+  position: absolute;
+  top: 9px;
+}
+
+.iconImg {
+  width: 30px;
+  height: 30px;
+  filter: invert(0.3) sepia(4) saturate(0) hue-rotate(360deg) brightness(1.2);
+  transition: ease-in-out 300ms;
+  align-self: center;
+}
+.iconImg:hover {
+  width: 40px;
+  height: 40px;
+  transition: ease-in-out 300ms;
+}
+
+.active img {
+  width: 40px;
+  height: 40px;
+  transition: ease 200ms;
+}
+
+.active p {
+  font-size: medium;
+  transition: ease 200ms;
+}
+
+.navBarButton .active {
+  border-color: #6c6859;
+  border-style: dashed;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  padding: 5px 0 5px 0;
+  transition: ease 200ms;
+}
+
+/* color: #ff5f00; */
+/* filter: invert(0.4) sepia(1) saturate(20) hue-rotate(0deg) brightness(0.8); */
+/* filter: invert(0.4) sepia(1) saturate(20) hue-rotate(0deg) brightness(1); */

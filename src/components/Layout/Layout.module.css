@@ -1,0 +1,15 @@
+.Layout {
+  width: 90vw;
+  margin: 0 auto;
+  /* border: 1px solid gray; */
+}
+
+@media (max-width: 800px) {
+  .mobileMode {
+    display: none;
+  }
+
+  .Layout {
+    width: 95vw;
+  }
+}

@@ -1,0 +1,17 @@
+.Pagenotfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.Pagenotfound a {
+  text-decoration: underline;
+  color: inherit;
+  font-style: italic;
+}
+.Pagenotfound a:hover {
+  color: brown;
+}

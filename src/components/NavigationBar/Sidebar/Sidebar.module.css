@@ -1,0 +1,37 @@
+.Sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  background-color: rgba(248, 247, 244, 1);
+  padding: 10% 0;
+  box-sizing: border-box;
+  transition: transform 0.5s ease-out;
+}
+.navItems {
+  height: 20%;
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Open {
+  transform: translateX(0);
+}
+
+.Closed {
+  transform: translateX(-400vw);
+}
+
+@media (min-width: 800px) {
+  .Sidebar {
+    display: none;
+  }
+}

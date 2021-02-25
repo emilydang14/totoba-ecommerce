@@ -1,0 +1,25 @@
+.NavItem {
+  margin: 0 30px;
+  font-weight: 800;
+}
+
+.NavItem a {
+  text-decoration: none;
+  color: inherit;
+  transition: ease-in-out 300ms;
+}
+
+.NavItem a:hover {
+  /* color: #ff5f00; */
+  font-size: large;
+}
+
+.active {
+  border-color: #6c6859;
+  border-style: dashed;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  padding: 5px 5px;
+  transition: ease 200ms;
+}
