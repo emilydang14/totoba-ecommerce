@@ -1,10 +1,11 @@
 # TOTOBa. Ecommerce
 
+### Project Status: On going
+
 ## Introduction
 
 TOTOBa. is a personal e-commerce project that was created based on a start-up ideas to bringing the sustainable lifestyle into daily fashion. The project has three phases: market research, branding and designing interface, lastly is programming using React Js, Firebase Database & Hosting, Stripe JS, Google Cloud Functions (serverless).
 
-### Project Status: On going
 
 ## Technology used: 
   - React Js: React Hook
