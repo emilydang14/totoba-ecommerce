@@ -4,7 +4,7 @@
 
 ## Introduction
 
-TOTOBa. is a personal e-commerce project that was created based on a start-up ideas to bringing the sustainable lifestyle into daily fashion. The project has three phases: market research, branding and designing interface, lastly is programming using React Js, Firebase Database & Hosting, Stripe JS, Google Cloud Functions (serverless).
+TOTOBa. is a personal e-commerce project that was created based on a start-up idea to bring the sustainable lifestyle into daily fashion. The project had three phases: market research, branding and designing interface. After that it was developed using React Js, Firebase Database, Stripe JS API and Google Cloud Functions (serverless).
 
 
 ## Technology used: 
